@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>For You 💖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts for elegance -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #ffe6f0, #ffd1c4);
+        font-family: "Roboto", sans-serif;
+        color: #4a2c40;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .card {
+        background: white;
+        max-width: 720px;
+        width: 90%;
+        padding: 40px;
+        border-radius: 25px;
+        box-shadow: 0 15px 40px rgba(231, 84, 128, 0.3);
+        overflow: hidden;
+        position: relative;
+      }
+
+      .heart {
+        position: absolute;
+        font-size: 50px;
+        opacity: 0.1;
+        animation: float 6s infinite linear;
+      }
+      @keyframes float {
+        0% {
+          transform: translateY(0) rotate(0deg);
+        }
+        50% {
+          transform: translateY(-30px) rotate(15deg);
+        }
+        100% {
+          transform: translateY(0) rotate(0deg);
+        }
+      }
+
+      h1 {
+        font-family: "Playfair Display", serif;
+        text-align: center;
+        color: #e75480;
+        font-size: 2.5em;
+        margin-bottom: 25px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 18px;
+        text-align: justify;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 1s forwards;
+      }
+
+      /* Add animation delay for all paragraphs */
+      p:nth-child(n) {
+        animation-delay: calc(0.1s * var(--n));
+      }
+
+      @keyframes fadeInUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (max-width: 480px) {
+        .card {
+          padding: 25px;
+        }
+        h1 {
+          font-size: 2em;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <!-- Floating hearts -->
+      <div class="heart" style="top: 10%; left: 10%">❤️</div>
+      <div class="heart" style="top: 40%; left: 80%">💖</div>
+      <div class="heart" style="top: 70%; left: 30%">💕</div>
+
+      <h1>For You 💖</h1>
+
+      <!-- Entire message -->
+      <p style="--n: 1">Hi.</p>
+      <p style="--n: 2">
+        I’ve been thinking for a long time about whether to say this, and I
+        finally decided to be honest.
+      </p>
+      <p style="--n: 3">
+        I like you. I have for a long time. I never spoke because fear, timing,
+        and responsibilities always stopped me — not because I didn’t care. I
+        don’t expect anything from you, and I don’t want to make you
+        uncomfortable. I just didn’t want to carry this silently anymore.
+      </p>
+      <p style="--n: 4">
+        People say we should control our feelings, our emotions, our thoughts. I
+        tried. I really did. But some feelings grow quietly, without asking
+        permission. This is my truth.
+      </p>
+      <p style="--n: 5">
+        The first time I heard your name was in the Bee Lab. From that day,
+        something started inside me — something I didn’t understand then. I saw
+        you often, yet you never noticed me. I existed somewhere in the
+        background of your days.
+      </p>
+      <p style="--n: 6">
+        In our first year, we shared the same supply exam. We sat in the same
+        classroom, both wearing green. I still remember that small coincidence.
+        You moved forward in life so easily after that, clearing everything,
+        while I carried small memories you never knew existed.
+      </p>
+      <p style="--n: 7">
+        In the second year, we were in the CC lab. You sat in front of me. I saw
+        you without being seen. One day, when you stood near madam for
+        correction, your hair fell over your eyes. It was a simple moment, but
+        it stayed with me.
+      </p>
+      <p style="--n: 8">
+        Another day, at the hostel mess, I noticed you sitting alone with your
+        phone. For days, I saw you there. Then one day, our eyes met. That was
+        our first eye contact. I don’t know if you remember it — but I do.
+      </p>
+      <p style="--n: 9">
+        The third year was different. Slowly, you began to notice me too. One
+        day, my system didn’t work, and I was moved to the system beside yours.
+        For two hours, we sat next to each other without speaking. I wanted to
+        say something so badly, but fear froze me. My body was there; my courage
+        wasn’t.
+      </p>
+      <p style="--n: 10">
+        Over time, small moments made me feel closer to you — shared looks,
+        quiet smiles. During sports time, when madam asked us to say each
+        other’s names, you smiled at me. That smile stayed with me longer than
+        you’ll ever know.
+      </p>
+      <p style="--n: 11">Still, I remained silent.</p>
+
+      <p style="--n: 13">
+        After a long time, I gathered the courage to send you a follow request.
+        When you accepted it, my heart felt lighter. During exams, whenever you
+        came near me, my heartbeat fast Even now, it does.
+      </p>
+      <p style="--n: 14">
+        There were moments that made me feel close to you — songs, shared
+        colors, small interactions, birthday wishes. I promised myself I would
+        talk to you one day. But life became heavy. Family responsibilities
+        grew. I felt I wasn’t enough, that I wasn’t suitable for you. So I
+        stayed silent again.
+      </p>
+      <p style="--n: 15">
+        When college started, I ignored you even when you looked at me. I know
+        that hurt you, and I am truly sorry. That distance was never because I
+        didn’t care — it was because I cared too much and didn’t know how to
+        survive that phase of my life.
+      </p>
+      <p style="--n: 16">
+        I only questioned myself — my silence, my fear, my timing.
+      </p>
+      <p style="--n: 17">
+        I tried to move on. I tried to stop looking, stop feeling. But my heart
+        refused to listen.
+      </p>
+      <p style="--n: 18">
+        One morning, I waited, wanting to finally speak. But when I saw your
+        face, I felt like my presence was unwanted. So I stepped back again and
+        created distance — not out of indifference, but out of self-protection.
+      </p>
+      <p style="--n: 19">
+        From the outside, I looked fine. Inside, I was slowly breaking.
+      </p>
+      <p style="--n: 20">
+        You live in my thoughts in ways I can’t explain. Songs remind me of you.
+        Dreams carry your face. Even in rooms full of people, my mind drifts
+        back to you.
+      </p>
+      <p style="--n: 21">
+        I don’t know if I will ever have you. I don’t expect anything from you.
+        I only believe this — if you are meant to be part of my life, life will
+        find a way.
+      </p>
+      <p style="--n: 22">
+        Thank you for reading this. Just writing it has been a relief. I hope
+        this message finds you well. If I anything hurt you, sorry.
+      </p>
+    </div>
+
+    <script
+      data-goatcounter="https://vikkysoudu.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
+  </body>
+</html>
